@@ -5,7 +5,7 @@ with open("README.md", mode="r", encoding="utf-8") as readme_file:
 
 setup(
     name='promptcap',
-    packages=['promptcap'],
+    packages=['promptcap', 'promptcap.generate'],
     version='1.0.3',
     license='MIT',
     description='Instruction-Guided Image Captioning',
